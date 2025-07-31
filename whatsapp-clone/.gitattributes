@@ -1,0 +1,56 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Documents
+*.md text
+*.txt text
+*.json text
+*.xml text
+*.yaml text
+*.yml text
+
+# Source code
+*.js text
+*.ts text
+*.dart text
+*.html text
+*.css text
+*.scss text
+
+# Config files
+*.env text
+*.gitignore text
+*.gitattributes text
+Dockerfile text
+docker-compose.yml text
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
+
+# Archives
+*.zip binary
+*.tar.gz binary
+*.rar binary
+
+# Fonts
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+
+# Audio/Video
+*.mp3 binary
+*.mp4 binary
+*.wav binary
+*.avi binary
+
+# Language detection for GitHub
+*.dart linguist-language=Dart
+*.js linguist-language=JavaScript
+backend/* linguist-language=JavaScript
+mobile/* linguist-language=Dart
