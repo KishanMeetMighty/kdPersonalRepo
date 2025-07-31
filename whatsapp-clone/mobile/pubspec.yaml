@@ -1,0 +1,88 @@
+name: whatsapp_clone
+description: A WhatsApp clone mobile application built with Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Navigation
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  flutter_screenutil: ^5.9.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # HTTP & API
+  http: ^1.1.0
+  dio: ^5.3.2
+  
+  # Real-time Communication
+  socket_io_client: ^2.0.3+1
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # Authentication & Security
+  crypto: ^3.0.3
+  
+  # Media & File Handling
+  image_picker: ^1.0.4
+  file_picker: ^6.1.1
+  cached_network_image: ^3.3.0
+  photo_view: ^0.14.0
+  
+  # Permissions
+  permission_handler: ^11.0.1
+  
+  # Audio & Video
+  just_audio: ^0.9.36
+  video_player: ^2.7.2
+  record: ^5.0.4
+  
+  # Utilities
+  intl: ^0.18.1
+  timeago: ^3.6.0
+  uuid: ^4.1.0
+  path_provider: ^2.1.1
+  
+  # UI Components
+  flutter_svg: ^2.0.7
+  lottie: ^2.7.0
+  shimmer: ^3.0.0
+  
+  # Chat Features
+  emoji_picker_flutter: ^1.6.3
+  flutter_chat_bubble: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+  
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
